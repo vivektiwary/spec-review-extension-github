@@ -1,0 +1,31 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "codeFrame": false
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "strict": 0,
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "no-trailing-spaces": "error",
+    "space-infix-ops": ["error", {"int32Hint": false}],
+    "no-multiple-empty-lines": "error",
+    "arrow-parens": 1,
+    "arrow-body-style": [ 2, "as-needed" ],
+    "class-methods-use-this": 0,
+    "comma-dangle": [ 2, "always-multiline" ],
+    "no-confusing-arrow": 0,
+    "no-use-before-define": 0,
+    "prefer-template": 2,
+    "indent": [ 2, 2, { "SwitchCase": 1 } ],
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "react/forbid-prop-types": "off"
+  }
+}
